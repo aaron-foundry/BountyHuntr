@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/native';
+import {Image} from 'react-native';
 import {
     HEADER_BAR_TITLE,
     HEADER_BAR_STYLE,
@@ -20,7 +21,7 @@ class MealPlanningScreen extends React.Component {
 
     render() {
         return (
-            <SuggestedRecipesText>{`Suggested Recipes`}</SuggestedRecipesText>
+            <Image source={require('../assets/images/planning_list.png')}/>
         );
     }
 }
