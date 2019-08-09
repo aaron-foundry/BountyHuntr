@@ -58,7 +58,19 @@ const tabNavigator = createBottomTabNavigator({
   MyFoodStack,
   AddFoodStack,
   MealPlanningStack,
+},
+{
+  tabBarOptions: {
+    activeTintColor: 'white',
+    inactiveTintColor: '#a8dbc2',
+    style: {
+      backgroundColor: '#49b481'
+    }
+  }
 });
+
+// #a8dbc2
+
 
 tabNavigator.path = '';
 
